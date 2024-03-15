@@ -1,0 +1,77 @@
+body{
+    background-image: url(images/texture.png);
+    background-color: black;
+}
+.all-content{
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: grid;
+}
+.logo img{
+    width: 250px;
+    position: relative;
+    left: 40%;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    gap:17px;
+}
+.container img{
+    width: 350px;
+    margin-top: 10px;
+    background: none;
+    border: 2px solid purple;
+    filter:hue-rotate(25deg);
+    
+}
+.box{
+    display: flex;
+    gap: 17px;
+   
+}
+.box p{
+    border:  1px solid purple;
+    background-color: purple;
+    color: white;
+    width: 350px;
+    height: 190px;
+    text-align: center;
+}
+.text{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.helal{
+    width: 35px;
+    margin-left: 3px;
+}
+.item2{
+    display: flex;
+    gap:17px;
+}
+.item2 img{
+    width: 350px;
+    border: 2px solid purple;
+}
+.container :hover {
+    filter:hue-rotate(0deg);
+}
+.text:hover{
+    box-shadow: 3px 2px 2px purple;
+}
+.item2,
+.img2{
+    background: none;
+}
+.img2:hover{
+    background: none;
+    filter:hue-rotate(250deg);
+}
+
